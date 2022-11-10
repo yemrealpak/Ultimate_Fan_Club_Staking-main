@@ -1,0 +1,19 @@
+body {
+  margin: 0 !important;
+  font-family: 'Noto Serif', sans-serif !important;
+   background-image: url(./assets/background.jpg);
+  /* background-color: #1F2340 !important; */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+* {
+  box-sizing: content-box !important;
+} 
+@media (max-width: 768px) {
+  * {
+    box-sizing: revert !important;
+  }
+}
+  
